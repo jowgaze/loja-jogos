@@ -2,16 +2,23 @@ import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 // Angular Material
-import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './views/header/header.component';
-import { HeaderNavComponent } from './views/header-nav/header-nav.component';
-import { BannerImageComponent } from './views/banner-image/banner-image.component';
+import { BannerHomeComponent } from './views/banner-home/banner-home.component';
+import { LoginComponent } from './views/login/login.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 
 
@@ -19,8 +26,9 @@ import { BannerImageComponent } from './views/banner-image/banner-image.componen
   declarations: [
     AppComponent,
     HeaderComponent,
-    HeaderNavComponent,
-    BannerImageComponent
+    BannerHomeComponent,
+    LoginComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,13 @@ import { BannerImageComponent } from './views/banner-image/banner-image.componen
 
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule,
+    MatMenuModule,
+    MatGridListModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [
     provideClientHydration()

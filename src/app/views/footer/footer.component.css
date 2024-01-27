@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    text-align: center;
+    height: 100px;
+}
+
+footer p{
+    margin: 10px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+footer p strong{
+    letter-spacing: 5px;
+    font-weight: 400;
+    border: solid 1px;
+    padding: 5px;
+    margin: 0px;
+}

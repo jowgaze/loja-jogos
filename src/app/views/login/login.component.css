@@ -1,0 +1,47 @@
+.login{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-block: 75px;
+}
+
+.login-container{
+    width: 350px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.login-content{
+    padding: 20px;
+}
+
+mat-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+mat-toolbar p {
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.data-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-login{
+    display: flex;
+    justify-content: end;
+}
+
+.login-container button{
+    width: 100px;
+}
+  
