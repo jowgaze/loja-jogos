@@ -1,0 +1,33 @@
+<section class="conteiner-form">
+    <div class="container">
+        <h2>Atualizar Cliente</h2>
+        <form *ngIf="produto">
+            <mat-form-field>
+                <mat-label>ID</mat-label>
+                <input type="text" id="id" name="id" [(ngModel)]="produto.id" readonly matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Nome</mat-label>
+                <input type="text" name="nome" [(ngModel)]="produto.produto" matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Descrição</mat-label>
+                <input type="text" name="descricao" [(ngModel)]="produto.descricao" matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Foto</mat-label>
+                <input type="text" name="foto" [(ngModel)]="produto.foto" matInput>
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Preço</mat-label>
+                <input type="number" name="preco" [(ngModel)]="produto.preco" matInput>
+            </mat-form-field>
+
+            <button mat-flat-button color="primary" type="submit" (click)="atualizar(produto.id)">Atualizar</button>
+        </form>
+    </div>
+</section>

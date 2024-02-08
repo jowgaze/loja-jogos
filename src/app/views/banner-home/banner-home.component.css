@@ -21,13 +21,13 @@
     margin-bottom: 100px;
 }
 
-.container {
+/* .container {
     background-color: white;
     width: 90%;
     height: 300px;
     padding: 0px;
     border-radius: 25px;
-}
+} */
 
 .container mat-toolbar {
     display: flex;
@@ -51,12 +51,17 @@
     padding: 10px 5px 10px 5px;
 }
 
+.game img{
+    width: 100px;
+    height: 100px;
+}
+
 .game-grid{
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1px;
+    gap: 20px;
 }
 
 mat-card-header, mat-card-content, mat-card-actions{

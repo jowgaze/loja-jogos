@@ -1,0 +1,28 @@
+<section class="content-form">
+    <div class="container">
+        <h2>Cadastrar Novo Produto</h2>
+        <form>
+            <mat-form-field>
+                <mat-label>Nome</mat-label>
+                <input type="text" name="nome" matInput [(ngModel)]="produto.produto">
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Descrição</mat-label>
+                <input type="text" name="descricao" matInput [(ngModel)]="produto.descricao">
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Foto</mat-label>
+                <input type="text" name="foto" matInput [(ngModel)]="produto.foto">
+            </mat-form-field>
+
+            <mat-form-field>
+                <mat-label>Preço</mat-label>
+                <input type="number" name="preco" matInput [(ngModel)]="produto.preco">
+            </mat-form-field>
+
+            <button mat-flat-button color="primary" type="submit" (click)="cadastrar()">Cadastrar</button>
+        </form>
+    </div>
+</section>

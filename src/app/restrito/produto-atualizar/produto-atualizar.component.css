@@ -1,0 +1,24 @@
+.conteiner-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 85vh;
+}
+
+.conteiner-form h2{
+    font-weight: 200;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
