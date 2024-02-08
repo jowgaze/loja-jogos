@@ -1,8 +1,8 @@
-# Estudo inicial de Angular
+# Estudo inicial de Angular - primeiro contato
 Projeto gerado no [Angular CLI](https://github.com/angular/angular-cli) v17.1.1.
 
 ## Jow Store
-Desenvolvido como material de estudo no curso Full Stack do Senai. Este é o meu primeiro contato com Angular.
+Desenvolvido como material de estudo no curso Full Stack do Senai.
 
 
 ## Visualização
