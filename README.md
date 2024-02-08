@@ -6,4 +6,11 @@ Desenvolvido como material de estudo no curso Full Stack do Senai.
 
 
 ## Visualização
-`ng serve` para iniciar o servidor e visualizar a aplicação em `http://localhost:4200/`.
+Para iniciar o servidor e visualizar a aplicação em `http://localhost:4200/` use o comando
+
+    `ng serve`
+
+
+Para iniciar a API local com o json-server use o comando
+
+    json-server --watch dbgames.json
